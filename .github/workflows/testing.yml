@@ -98,4 +98,4 @@ jobs:
       - name: Install sphinxcontrib-wavedrom module itself
         run: pip install -e .
       - name: Build confluence without publishing
-        run: sphinx-build -b confluence example/source confluenceoutput
+        run: sphinx-build -W -b confluence example/source confluenceoutput
