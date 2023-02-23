@@ -22,7 +22,7 @@ import sphinx_rtd_theme
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinxcontrib.wavedrom', 'sphinx.ext.ifconfig']
+extensions = ['sphinxcontrib.wavedrom', 'sphinx.ext.ifconfig', 'sphinxcontrib.confluencebuilder']
 
 offline_skin_js_path = r"default.js"
 offline_wavedrom_js_path = r"../wavedrom.js"
