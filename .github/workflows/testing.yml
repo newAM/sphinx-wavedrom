@@ -21,7 +21,7 @@ jobs:
       - name: Install sphinx version
         run: pip install sphinx==${{ matrix.sphinx }}
       - name: Install dependencies
-        run: pip install sphinx_rtd_theme
+        run: pip install sphinx_rtd_theme sphinxcontrib-confluencebuilder
       - name: Install sphinxcontrib-wavedrom module itself
         run: pip install -e .
       - name: Build html document with JS rendering
@@ -57,7 +57,7 @@ jobs:
       - name: Install sphinx version
         run: pip install sphinx==${{ matrix.sphinx }}
       - name: Install dependencies
-        run: pip install sphinx_rtd_theme
+        run: pip install sphinx_rtd_theme sphinxcontrib-confluencebuilder
       - name: Install sphinxcontrib-wavedrom module itself
         run: pip install -e .
       - name: Install latex
